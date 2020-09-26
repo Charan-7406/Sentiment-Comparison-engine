@@ -18,11 +18,11 @@ def perc_response(a):
 
 st.set_option('deprecation.showPyplotGlobalUse', False)
 
-
-CONSUMER_KEY = "DdNtxsyingxVz1oZKYs1HNzV7"
-CONSUMER_SECRET = "r1nRXAi1PCIxGRbLqw65OoC606PLdQIGqZOAppxPMYK73IlM58"
-ACCESS_TOKEN ="1285509929856495618-YVjTWTsYZD3c2p6PK2qAnKbtqcH0Ja"
-ACCESS_TOKEN_SECRET="IA4ej6Im7GZHupSan2lovPIssIDuaqhPu5ASDPokvwZqC"
+#create twitter developer account and add your own keys
+CONSUMER_KEY = ""
+CONSUMER_SECRET = ""
+ACCESS_TOKEN =""
+ACCESS_TOKEN_SECRET=""
 
 auth = tweepy.OAuthHandler(consumer_key = CONSUMER_KEY,consumer_secret = CONSUMER_SECRET)
 auth.set_access_token(ACCESS_TOKEN, ACCESS_TOKEN_SECRET)
