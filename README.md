@@ -21,10 +21,8 @@ Nlp plays a major role in this project. Based on the keywords given as inputs , 
  Based on the positive scores obtained, we understand which is the better keyword/topic.
  
   # This reprository contains:
- * 2 pickle files which has all unique words coverted into numbers or tokens and vice versa.
- * cap_model50.h5 which is the trained model.
  * app.py which is the program which will be deployed on heroku.
- * Proj_imgcap notebook file which is the Jupyter notebook consisting of the implimented program.
+ * sent_comparison.py is the python file which has the code for the project.
  * The remaing files such as setup.sh, requirements.txt, Procfile are used when deploying the model on heroku. 
  
 
